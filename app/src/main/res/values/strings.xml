@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GhibliSampleApp</string>
+
+    //Chips
+    <string name="film_chip">Films</string>
+    <string name="people_chip">Peoples</string>
+    <string name="location_chip">Locations</string>
+    <string name="specie_chip">Species</string>
+    <string name="vehicle_chip">Vehicles</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="chipGroupStyle">@style/ChipGroupStyle</item>
+        <item name="chipStyle">@style/ChipStyle</item>
+    </style>
+
+
+    <style name="ChipGroupStyle" parent="Widget.MaterialComponents.ChipGroup">
+        <item name="singleLine">true</item>
+        <item name="singleSelection">true</item>
+    </style>
+
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipIconVisible">false</item>
+        <item name="background">@drawable/chip_selector</item>
+    </style>
+
+</resources>
